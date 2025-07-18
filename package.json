@@ -7,6 +7,7 @@
     "dev:backend": "cd backend && npm run dev",
     "dev:full": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "install:backend": "cd backend && npm install"
