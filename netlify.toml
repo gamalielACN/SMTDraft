@@ -1,6 +1,6 @@
 [build]
   publish = ".next"
-  command = "npm run build && npm run dev"
+  command = "npm run build && npm run start"
 
 [build.environment]
   NODE_VERSION = "18"
