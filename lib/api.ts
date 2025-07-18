@@ -1,7 +1,8 @@
 import { toast } from 'sonner';
 import { apiCache } from './api-cache';
 
-export const API_BASE_URL = 'http://localhost:3001/api';
+// export const API_BASE_URL = 'http://localhost:3001/api';
+export const API_BASE_URL = 'https://smtdraft.onrender.com/api';
 
 interface ApiError {
   message: string;
